@@ -1,9 +1,9 @@
 import java.util.Scanner;
 import model.Produto;
 
-public class main {
+public class Exer1 {
   public static void main(String ...args){
-
+    //Exercicio 1
     try (Scanner scan = new Scanner(System.in)) {
       System.out.println("Informe o codigo, a quantidade o valor unitario e a forma de pagamento: ");
       int codigo = scan.nextInt();
